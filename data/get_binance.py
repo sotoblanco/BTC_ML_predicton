@@ -69,3 +69,4 @@ def store_data():
   df.sort_index(inplace=True)
   df = df[~df.index.duplicated(keep='last')]
   df.to_csv("data/BTCUSDT_historical.csv")
+
