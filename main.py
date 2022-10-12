@@ -1,6 +1,5 @@
 import logging
 import logging.handlers
-from datetime import datetime
 
 from data.get_binance import *
 from data.feature_creation import *
